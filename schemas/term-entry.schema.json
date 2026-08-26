@@ -1,0 +1,80 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/Cartilage-Stairwells/canonical-lexicon/schemas/term-entry.schema.json",
+  "title": "Triune-Oracle Canonical Lexicon Term Entry",
+  "description": "Schema for a single canonical term entry in the Triune-Oracle Canonical Lexicon",
+  "type": "object",
+  "required": ["term", "definition", "domain", "status"],
+  "properties": {
+    "term": {
+      "type": "string",
+      "description": "Canonical name of the term"
+    },
+    "acronym": {
+      "type": "string",
+      "description": "Abbreviated form, if applicable"
+    },
+    "literal": {
+      "type": "string",
+      "description": "Literal expansion of the acronym"
+    },
+    "definition": {
+      "type": "string",
+      "description": "Formal meaning"
+    },
+    "practical_meaning": {
+      "type": "string",
+      "description": "What the term means operationally"
+    },
+    "domain": {
+      "type": "string",
+      "description": "Architectural or conceptual domain",
+      "examples": [
+        "System", "Architecture", "Protocol", "Evidence",
+        "Admissibility", "Observation", "Integrity",
+        "Kernel", "Mathematics", "Specification",
+        "Custody", "Artifact", "Semantics", "Agent"
+      ]
+    },
+    "status": {
+      "type": "string",
+      "enum": ["Proposed", "Candidate", "Active", "Frozen", "Superseded", "Deprecated", "Informal"],
+      "description": "Lifecycle status of the term"
+    },
+    "authority": {
+      "type": "string",
+      "description": "Artifact or specification governing the term"
+    },
+    "related_terms": {
+      "type": "array",
+      "items": {"type": "string"},
+      "description": "Closely coupled concepts"
+    },
+    "do_not_confuse_with": {
+      "type": "array",
+      "items": {"type": "string"},
+      "description": "Known semantic collisions"
+    },
+    "entity_type": {
+      "type": "string",
+      "enum": [
+        "thing", "contract", "property", "observation_domain",
+        "protocol", "artifact", "test", "architectural_plane",
+        "state", "relation", "agent", "label"
+      ],
+      "description": "Ontological classification — what kind of thing this term names"
+    },
+    "version_introduced": {
+      "type": "string",
+      "description": "Lexicon version in which this term was first added (e.g., v0.1)"
+    },
+    "governing_specification": {
+      "type": "string",
+      "description": "The frozen specification that authoritatively defines this term's contract, if applicable"
+    },
+    "notes": {
+      "type": "string",
+      "description": "Additional context, restrictions, or caveats"
+    }
+  }
+}

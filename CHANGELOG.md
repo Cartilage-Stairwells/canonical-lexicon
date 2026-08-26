@@ -1,5 +1,19 @@
 # Changelog
 
+## v0.2 — 2026-08-26
+
+### Added
+- Volume I — Ontology (volumes/VOLUME-I-ONTOLOGY.md)
+  - Entity types: Artifact, Artifact Reference, Evidence, Receipt, Contract, Authority, Observation, Agent
+  - States: Custody (UNVERIFIED→OBSERVED→VERIFIED→FAILED/FROZEN), Transaction (NONE→STAGED→COMMITTING→COMMITTED/ABORTED), Provenance (ESTABLISHED/UNESTABLISHED/CONTRADICTED), Term Lifecycle
+  - Relations: Resolution, Verification, Custody Promotion, Admission, Observation Expansion, Authority Flow
+  - Properties: Identity, Integrity, Admissibility, Fail-Closed, Immutability, Behavioral Verification vs Formal Proof
+  - Semantic distinctions: 10 canonical rules (Observation≠Authority, Admissibility≠Truth, etc.)
+  - Architectural planes: Custody, Evolution, Audit, Evidence, Play
+  - Two-channel model: Play → Persistence → Resolve → Observe → Bind → Independent Verify → Custody Promotion → Receipt
+  - Naming conventions for entity types (12 categories)
+  - Term-entry JSON schema (schemas/term-entry.schema.json)
+
 ## v0.1.1 — 2026-08-26
 
 ### Changed
