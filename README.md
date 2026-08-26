@@ -75,6 +75,23 @@ Before introducing a new acronym:
 
 The goal is not to maximize the number of acronyms. The goal is to make every acronym semantically expensive to misuse and cheap to understand.
 
+
+## Authority Boundary
+
+The lexicon is **normative about terminology, but not authoritative about the underlying technical contract.**
+
+The authority chain:
+
+```
+Lexicon → identifies terminology
+  → points to governing artifact
+  → governing artifact establishes contract
+  → implementation demonstrates/realizes contract
+  → tests/evidence establish what was actually observed
+```
+
+The lexicon records what a name means and where authority lives. The governing specification establishes the contract. Without this distinction, the glossary could accidentally become a second, conflicting specification.
+
 ## Canonical Principle
 
 The vocabulary is part of the architecture. As the system becomes more formally specified, terminology is no longer merely documentation — definitions determine what distinctions the system is capable of making, what claims an artifact is permitted to carry, what transitions are admissible, and where authority does or does not exist.

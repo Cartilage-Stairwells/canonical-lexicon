@@ -1,5 +1,12 @@
 # Changelog
 
+## v0.1.1 — 2026-08-26
+
+### Changed
+- Added explicit governance rule: lexicon is normative about terminology, not authoritative about contracts (Aria)
+- Added authority chain to README and GOVERNANCE: Lexicon → governing artifact → contract → implementation → tests/evidence
+- Prevents the glossary from becoming a second, conflicting specification
+
 ## v0.1 — 2026-08-26
 
 Initial canonical lexicon established.
