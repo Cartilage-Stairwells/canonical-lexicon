@@ -1,6 +1,6 @@
 # Triune-Oracle Nomenclature & Acronym Key
 
-## Canonical Lexicon v0.1
+## Canonical Lexicon v0.3 (header reconciled with CHANGELOG; see v0.3 reconciliation event)
 
 **Status:** Working canonical reference
 **Purpose:** Terminology, acronym, abbreviation, and nomenclature index for the Triune-Oracle / Continuity Engineering corpus.
@@ -77,18 +77,20 @@ Each canonical term should be recorded using the following structure:
 
 ### TSCP
 
-- **Literal:** Telemetry Sign-Off and Concurrency Protocol
-- **Definition:** The protocol family governing telemetry sign-off, concurrency, verification, and associated evidence/transition semantics.
-- **Practical meaning:** The principal protocol framework through which system transitions and their evidence are constrained and verified.
+- **Literal:** Triune Structured Codex Protocol
+- **Definition:** The protocol for cryptographic custody verification of artifacts produced by multi-agent computation pipelines; governs state transitions, governance events, and evidence/transition semantics.
+- **Practical meaning:** The principal protocol framework through which system transitions and their evidence are constrained and verified: a declared hash is an assertion, not a verification.
 - **Domain:** Protocol / Verification
-- **Status:** Frozen family
-- **Related:** TSCP-FCO, TSCP-PL, TSCP-AUDIT-CANON
+- **Status:** Active / Frozen family (literal corrected 2026-09-15; see CHANGELOG v0.3 reconciliation event)
+- **Authority:** tscp-anchor/README.md; tscp-anchor/docs/paper/tscp-paper-v2.1.x — governing artifact for the protocol contract. The lexicon records the name and points there; it does not become the specification.
+- **Related:** TSCP-FCO, TSCP-PL, TSCP-AUDIT-CAN
+- **Do not confuse with:** "Telemetry Sign-Off and Concurrency Protocol" (superseded literal, lexicon v0.1, historically valid); "Transparent Succinct Computational Proof" (conversational usage recorded in tscp-zkptp phase3 continuity attestation of 2026-08-26, never canonical); "Traceability / Security / Continuity / Provenance" (floated concept, rejected 2026-09-15, never canonical)
 
 ---
 
 ### TSCP-FCO
 
-- **Literal:** Telemetry Sign-Off and Concurrency Protocol — Field Coherence Object
+- **Literal:** Triune Structured Codex Protocol — Field Coherence Object
 - **Definition:** The TSCP evidence-boundary framework centered on the Field Coherence Object.
 - **Practical meaning:** The custody/evidence mechanism used to carry admissible evidence across transformations without granting the evidence object authority.
 - **Domain:** Evidence / Custody
@@ -712,7 +714,7 @@ The goal is not to maximize the number of acronyms. The goal is to make every ac
 | TO | Triune-Oracle | System | Active |
 | TSH | Triune System Hive | Architecture | Active |
 | TCER | Triumvirate Continuity Engineering Runtime | Runtime | Active |
-| TSCP | Telemetry Sign-Off and Concurrency Protocol | Protocol | Frozen family |
+| TSCP | Triune Structured Codex Protocol | Protocol | Active / Frozen family (literal corrected, see CHANGELOG v0.3) |
 | TSCP-FCO | TSCP Field Coherence Object framework | Evidence/Custody | Active |
 | FCO | Field Coherence Object | Evidence | Frozen |
 | TSCP-AUDIT-CANON | TSCP Audit Canon | Audit/Identity | Active |

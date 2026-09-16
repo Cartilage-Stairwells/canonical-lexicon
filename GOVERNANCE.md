@@ -51,6 +51,14 @@ It doesn't. The FCO contract is established by its governing specification. The 
 6. Identify the authoritative artifact for the definition
 7. Assign lifecycle status (Proposed / Candidate / Active / Frozen / Superseded / Deprecated)
 
+### Terminology State Transitions (2026-09-15)
+
+Transitions between terminology states are explicit state transitions. Do not silently convert "mentioned" → "adopted", "candidate" → "canonical", or "old" → "superseded". Recency alone does not establish supersession; absence from recent discussion does not either. If the evidence does not establish the transition, leave the state unresolved and report the boundary.
+
+When a new term replaces an old one, preserve the transition: `A → B`, rather than rewriting history so B appears to have always been the term. Supersession is not erasure.
+
+Property rule: A property is not granted by aspiration, naming, or declaration. It is granted only when the applicable evidence and verification contract justify the transition. This is a governance/evidence-boundary principle and does not assert that any specific property has already been established.
+
 ### Changing a Term's Status
 
 - **Proposed → Candidate:** Initial review complete, concept is under active consideration

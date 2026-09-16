@@ -1,5 +1,20 @@
 # Changelog
 
+## v0.3 — 2026-09-15
+
+### Changed — Terminology Reconciliation Event (auditable)
+- TSCP Literal corrected: "Telemetry Sign-Off and Concurrency Protocol" → "Triune Structured Codex Protocol"
+- Authority determination: tscp-anchor README + v2.1.x paper series govern (GOVERNANCE.md: frozen specification governs; lexicon corrects)
+- Historical literals preserved for audit: "Telemetry Sign-Off and Concurrency Protocol" (lexicon v0.1, superseded); "Transparent Succinct Computational Proof" (tscp-zkptp phase3 continuity attestation 2026-08-26, conversational, never canonical)
+- Rejected/floated (never admitted; recorded here only to close the event): "Traceability / Security / Continuity / Provenance"
+- Added "Authority" field to the TSCP entry
+- NOMENCLATURE header version reconciled (v0.1 → v0.3)
+- Supersession is an explicit state transition, not an erasure; the superseded literal remains historically valid and must not be used in new specifications
+
+### Added — Governance rules
+- Terminology State Transitions: transitions between terminology states are explicit; recency alone does not establish supersession; if evidence does not establish the transition, the state remains unresolved and the boundary is reported
+- Property rule (general principle; asserts no property as established): "A property is not granted by aspiration, naming, or declaration. It is granted only when the applicable evidence and verification contract justify the transition."
+
 ## v0.2 — 2026-08-26
 
 ### Added
