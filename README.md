@@ -97,3 +97,9 @@ The lexicon records what a name means and where authority lives. The governing s
 The vocabulary is part of the architecture. As the system becomes more formally specified, terminology is no longer merely documentation — definitions determine what distinctions the system is capable of making, what claims an artifact is permitted to carry, what transitions are admissible, and where authority does or does not exist.
 
 This lexicon is a maintained architectural artifact, not a casual glossary.
+
+## License
+
+This repository is licensed under the Apache License 2.0. See [LICENSE](LICENSE).
+
+The license covers the terminology corpus, governance documents, and schema in this repository. It governs reuse of the text; it does not broaden the lexicon's authority claims (see [GOVERNANCE.md](GOVERNANCE.md), under which frozen specifications govern where they conflict).
