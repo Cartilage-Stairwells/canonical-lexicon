@@ -100,6 +100,8 @@ This lexicon is a maintained architectural artifact, not a casual glossary.
 
 ## License
 
+Copyright 2026 Sean Christopher Southwick.
+
 This repository is licensed under the Apache License 2.0. See [LICENSE](LICENSE).
 
 The license covers the terminology corpus, governance documents, and schema in this repository. It governs reuse of the text; it does not broaden the lexicon's authority claims (see [GOVERNANCE.md](GOVERNANCE.md), under which frozen specifications govern where they conflict).
