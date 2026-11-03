@@ -105,3 +105,20 @@ Copyright 2026 Sean Christopher Southwick.
 This repository is licensed under the Apache License 2.0. See [LICENSE](LICENSE).
 
 The license covers the terminology corpus, governance documents, and schema in this repository. It governs reuse of the text; it does not broaden the lexicon's authority claims (see [GOVERNANCE.md](GOVERNANCE.md), under which frozen specifications govern where they conflict).
+
+---
+
+## Decision 2026-11-02 — TSCP expansion
+
+Owner ruling (Sean Southwick, 2026-11-02):
+
+- **TSCP expands to "Trusted Supply Chain Protocol"** — canonical for all
+  public-facing material, consistent with the frozen `tscp-v04-p0-baseline`
+  README.
+- **"Triune Structured Codex Protocol" is retired** from public-facing material
+  (confusing to reviewers). Historical/sealed documents are NOT rewritten;
+  the retirement applies to new and edited public text.
+- **"Technical Solutions for Community Problems"** is the mission tagline
+  (public site, READMEs), NOT the protocol name.
+- Remaining reconciliation: tscp-anchor README still carries the retired
+  expansion; tracked as open work, not silently rewritten.
